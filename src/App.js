@@ -55,19 +55,14 @@ function App() {
     </FormControl>
     </div>
 
-   <div className = "app_stats">
-     {/* InfoBoxs title= "coronavirus cases" */}
-     <InfoBox title="Coronavirus cases"/>
-     {/* InfoBoxs title= "coronavirus recoveries"*/}
-     <InfoBox title="Recovered"/>
-     
-     <InfoBox title="Deaths"/>
+   <div className = "app_status">
+     <InfoBox title="Coronavirus cases" cases={123} total={2000} />
+     <InfoBox title="Recovered"cases={1234}  total={3000}/>
+     <InfoBox title="Deaths" cases={12345} total={4000}/>
       
-      {/* InfoBoxs */}
       </div>  
       {/* Table */}
-
-      {/* Grapj */}
+      {/* Graph */}
       {/* Map */}
     </div>
   );
